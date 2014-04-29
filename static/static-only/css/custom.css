@@ -1,0 +1,9 @@
+.success {
+    background: grey;
+    text-align: center;
+}
+
+.h1 {
+   font-weight: bold;
+   font-size: 50px;
+}

@@ -1,0 +1,33 @@
+def get_s():
+	
+	shares = []
+	
+	shares.append('GOOG')
+	shares.append('XRX')
+	shares.append('MSFT')
+	shares.append('CSCO')
+	shares.append('AIG')
+	shares.append('NFLX')
+	shares.append('YHOO')
+	shares.append('EBAY')
+	shares.append('BAC')
+	shares.append('HPQ')
+	
+	return shares
+	
+def get_c():
+
+	companies = []
+	
+	companies.append('Google')
+	companies.append('Xerox')
+	companies.append('Microsoft')
+	companies.append('CISCO')
+	companies.append('AIG')
+	companies.append('Netflix')
+	companies.append('Yahoo')
+	companies.append('EBay')
+	companies.append('Bank of America')
+	companies.append('HP')
+	
+	return companies

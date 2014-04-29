@@ -1,0 +1,810 @@
+[
+    {
+        "pk": 1, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Activision Blizzard Inc", 
+            "stock_tickr": "ATVI"
+        }
+    }, 
+    {
+        "pk": 2, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Adobe Systems Incorporated", 
+            "stock_tickr": "ADBE"
+        }
+    }, 
+    {
+        "pk": 3, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Akamai Technologies Inc.", 
+            "stock_tickr": "AKAM"
+        }
+    }, 
+    {
+        "pk": 4, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Alexion Pharmaceuticals Inc.", 
+            "stock_tickr": "ALXN"
+        }
+    }, 
+    {
+        "pk": 5, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Altera Corporation", 
+            "stock_tickr": "ALTR"
+        }
+    }, 
+    {
+        "pk": 6, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Amazon.com Inc.", 
+            "stock_tickr": "AMZN"
+        }
+    }, 
+    {
+        "pk": 7, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Amgen Inc.", 
+            "stock_tickr": "AMGN"
+        }
+    }, 
+    {
+        "pk": 8, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Analog Devices Inc.", 
+            "stock_tickr": "ADI"
+        }
+    }, 
+    {
+        "pk": 9, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Apple Inc.", 
+            "stock_tickr": "AAPL"
+        }
+    }, 
+    {
+        "pk": 10, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Applied Materials Inc.", 
+            "stock_tickr": "AMAT"
+        }
+    }, 
+    {
+        "pk": 11, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Autodesk Inc.", 
+            "stock_tickr": "ADSK"
+        }
+    }, 
+    {
+        "pk": 12, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Automatic Data Processing Inc.", 
+            "stock_tickr": "ADP"
+        }
+    }, 
+    {
+        "pk": 13, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Avago Technologies Limited", 
+            "stock_tickr": "AVGO"
+        }
+    }, 
+    {
+        "pk": 14, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Baidu Inc.", 
+            "stock_tickr": "BIDU"
+        }
+    }, 
+    {
+        "pk": 15, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Bed Bath &amp; Beyond Inc.", 
+            "stock_tickr": "BBBY"
+        }
+    }, 
+    {
+        "pk": 16, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Biogen Idec Inc.", 
+            "stock_tickr": "BIIB"
+        }
+    }, 
+    {
+        "pk": 17, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Broadcom Corporation", 
+            "stock_tickr": "BRCM"
+        }
+    }, 
+    {
+        "pk": 18, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "C.H. Robinson Worldwide Inc.", 
+            "stock_tickr": "CHRW"
+        }
+    }, 
+    {
+        "pk": 19, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "CA Inc.", 
+            "stock_tickr": "CA"
+        }
+    }, 
+    {
+        "pk": 20, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Catamaran Corporation", 
+            "stock_tickr": "CTRX"
+        }
+    }, 
+    {
+        "pk": 21, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Celgene Corporation", 
+            "stock_tickr": "CELG"
+        }
+    }, 
+    {
+        "pk": 22, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Cerner Corporation", 
+            "stock_tickr": "CERN"
+        }
+    }, 
+    {
+        "pk": 23, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Charter Communications Inc.", 
+            "stock_tickr": "CHTR"
+        }
+    }, 
+    {
+        "pk": 24, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Check Point Software Technologies Ltd.", 
+            "stock_tickr": "CHKP"
+        }
+    }, 
+    {
+        "pk": 25, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Cisco Systems Inc.", 
+            "stock_tickr": "CSCO"
+        }
+    }, 
+    {
+        "pk": 26, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Citrix Systems Inc.", 
+            "stock_tickr": "CTXS"
+        }
+    }, 
+    {
+        "pk": 27, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Cognizant Technology Solutions Corporation", 
+            "stock_tickr": "CTSH"
+        }
+    }, 
+    {
+        "pk": 28, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Comcast Corporation", 
+            "stock_tickr": "CMCSA"
+        }
+    }, 
+    {
+        "pk": 29, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Costco Wholesale Corporation", 
+            "stock_tickr": "COST"
+        }
+    }, 
+    {
+        "pk": 30, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "DIRECTV", 
+            "stock_tickr": "DTV"
+        }
+    }, 
+    {
+        "pk": 31, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Discovery Communications Inc.", 
+            "stock_tickr": "DISCA"
+        }
+    }, 
+    {
+        "pk": 32, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "DISH Network Corporation", 
+            "stock_tickr": "DISH"
+        }
+    }, 
+    {
+        "pk": 33, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Dollar Tree Inc.", 
+            "stock_tickr": "DLTR"
+        }
+    }, 
+    {
+        "pk": 34, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "eBay Inc.", 
+            "stock_tickr": "EBAY"
+        }
+    }, 
+    {
+        "pk": 35, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Equinix Inc.", 
+            "stock_tickr": "EQIX"
+        }
+    }, 
+    {
+        "pk": 36, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Expedia Inc.", 
+            "stock_tickr": "EXPE"
+        }
+    }, 
+    {
+        "pk": 37, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Expeditors International of Washington Inc.", 
+            "stock_tickr": "EXPD"
+        }
+    }, 
+    {
+        "pk": 38, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Express Scripts Holding Company", 
+            "stock_tickr": "ESRX"
+        }
+    }, 
+    {
+        "pk": 39, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "F5 Networks Inc.", 
+            "stock_tickr": "FFIV"
+        }
+    }, 
+    {
+        "pk": 40, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Facebook Inc.", 
+            "stock_tickr": "FB"
+        }
+    }, 
+    {
+        "pk": 41, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Fastenal Company", 
+            "stock_tickr": "FAST"
+        }
+    }, 
+    {
+        "pk": 42, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Fiserv Inc.", 
+            "stock_tickr": "FISV"
+        }
+    }, 
+    {
+        "pk": 43, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Garmin Ltd.", 
+            "stock_tickr": "GRMN"
+        }
+    }, 
+    {
+        "pk": 44, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Gilead Sciences Inc.", 
+            "stock_tickr": "GILD"
+        }
+    }, 
+    {
+        "pk": 45, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Google Inc.", 
+            "stock_tickr": "GOOG"
+        }
+    }, 
+    {
+        "pk": 46, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Google Inc.", 
+            "stock_tickr": "GOOGL"
+        }
+    }, 
+    {
+        "pk": 47, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Henry Schein Inc.", 
+            "stock_tickr": "HSIC"
+        }
+    }, 
+    {
+        "pk": 48, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Illumina Inc.", 
+            "stock_tickr": "ILMN"
+        }
+    }, 
+    {
+        "pk": 49, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Intel Corporation", 
+            "stock_tickr": "INTC"
+        }
+    }, 
+    {
+        "pk": 50, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Intuit Inc.", 
+            "stock_tickr": "INTU"
+        }
+    }, 
+    {
+        "pk": 51, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Intuitive Surgical Inc.", 
+            "stock_tickr": "ISRG"
+        }
+    }, 
+    {
+        "pk": 52, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Keurig Green Mountain Inc.", 
+            "stock_tickr": "GMCR"
+        }
+    }, 
+    {
+        "pk": 53, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "KLA-Tencor Corporation", 
+            "stock_tickr": "KLAC"
+        }
+    }, 
+    {
+        "pk": 54, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Kraft Foods Group Inc.", 
+            "stock_tickr": "KRFT"
+        }
+    }, 
+    {
+        "pk": 55, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Liberty Global plc", 
+            "stock_tickr": "LBTYA"
+        }
+    }, 
+    {
+        "pk": 56, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Liberty Interactive Corporation", 
+            "stock_tickr": "LINTA"
+        }
+    }, 
+    {
+        "pk": 57, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Liberty Media Corporation", 
+            "stock_tickr": "LMCA"
+        }
+    }, 
+    {
+        "pk": 58, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Linear Technology Corporation", 
+            "stock_tickr": "LLTC"
+        }
+    }, 
+    {
+        "pk": 59, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Marriott International", 
+            "stock_tickr": "MAR"
+        }
+    }, 
+    {
+        "pk": 60, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Mattel Inc.", 
+            "stock_tickr": "MAT"
+        }
+    }, 
+    {
+        "pk": 61, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Maxim Integrated Products Inc.", 
+            "stock_tickr": "MXIM"
+        }
+    }, 
+    {
+        "pk": 62, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Micron Technology Inc.", 
+            "stock_tickr": "MU"
+        }
+    }, 
+    {
+        "pk": 63, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Microsoft Corporation", 
+            "stock_tickr": "MSFT"
+        }
+    }, 
+    {
+        "pk": 64, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Mondelez International Inc.", 
+            "stock_tickr": "MDLZ"
+        }
+    }, 
+    {
+        "pk": 65, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Monster Beverage Corporation", 
+            "stock_tickr": "MNST"
+        }
+    }, 
+    {
+        "pk": 66, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Mylan Inc.", 
+            "stock_tickr": "MYL"
+        }
+    }, 
+    {
+        "pk": 67, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "NetApp Inc.", 
+            "stock_tickr": "NTAP"
+        }
+    }, 
+    {
+        "pk": 68, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Netflix Inc.", 
+            "stock_tickr": "NFLX"
+        }
+    }, 
+    {
+        "pk": 69, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "NVIDIA Corporation", 
+            "stock_tickr": "NVDA"
+        }
+    }, 
+    {
+        "pk": 70, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "NXP Semiconductors N.V.", 
+            "stock_tickr": "NXPI"
+        }
+    }, 
+    {
+        "pk": 71, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "O'Reilly Automotive Inc.", 
+            "stock_tickr": "ORLY"
+        }
+    }, 
+    {
+        "pk": 72, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "PACCAR Inc.", 
+            "stock_tickr": "PCAR"
+        }
+    }, 
+    {
+        "pk": 73, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Paychex Inc.", 
+            "stock_tickr": "PAYX"
+        }
+    }, 
+    {
+        "pk": 74, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "QUALCOMM Incorporated", 
+            "stock_tickr": "QCOM"
+        }
+    }, 
+    {
+        "pk": 75, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Regeneron Pharmaceuticals Inc.", 
+            "stock_tickr": "REGN"
+        }
+    }, 
+    {
+        "pk": 76, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Ross Stores Inc.", 
+            "stock_tickr": "ROST"
+        }
+    }, 
+    {
+        "pk": 77, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "SanDisk Corporation", 
+            "stock_tickr": "SNDK"
+        }
+    }, 
+    {
+        "pk": 78, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "SBA Communications Corporation", 
+            "stock_tickr": "SBAC"
+        }
+    }, 
+    {
+        "pk": 79, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Seagate Technology.", 
+            "stock_tickr": "STX"
+        }
+    }, 
+    {
+        "pk": 80, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Sigma-Aldrich Corporation", 
+            "stock_tickr": "SIAL"
+        }
+    }, 
+    {
+        "pk": 81, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Sirius XM Holdings Inc.", 
+            "stock_tickr": "SIRI"
+        }
+    }, 
+    {
+        "pk": 82, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Staples Inc.", 
+            "stock_tickr": "SPLS"
+        }
+    }, 
+    {
+        "pk": 83, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Starbucks Corporation", 
+            "stock_tickr": "SBUX"
+        }
+    }, 
+    {
+        "pk": 84, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Stericycle Inc.", 
+            "stock_tickr": "SRCL"
+        }
+    }, 
+    {
+        "pk": 85, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Symantec Corporation", 
+            "stock_tickr": "SYMC"
+        }
+    }, 
+    {
+        "pk": 86, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Tesla Motors Inc.", 
+            "stock_tickr": "TSLA"
+        }
+    }, 
+    {
+        "pk": 87, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Texas Instruments Incorporated", 
+            "stock_tickr": "TXN"
+        }
+    }, 
+    {
+        "pk": 88, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "The Priceline Group Inc.", 
+            "stock_tickr": "PCLN"
+        }
+    }, 
+    {
+        "pk": 89, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Tractor Supply Company", 
+            "stock_tickr": "TSCO"
+        }
+    }, 
+    {
+        "pk": 90, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "TripAdvisor Inc.", 
+            "stock_tickr": "TRIP"
+        }
+    }, 
+    {
+        "pk": 91, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Twenty-First Century Fox Inc.", 
+            "stock_tickr": "FOXA"
+        }
+    }, 
+    {
+        "pk": 92, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Verisk Analytics Inc.", 
+            "stock_tickr": "VRSK"
+        }
+    }, 
+    {
+        "pk": 93, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Vertex Pharmaceuticals Incorporated", 
+            "stock_tickr": "VRTX"
+        }
+    }, 
+    {
+        "pk": 94, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Viacom Inc.", 
+            "stock_tickr": "VIAB"
+        }
+    }, 
+    {
+        "pk": 95, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "VimpelCom Ltd.", 
+            "stock_tickr": "VIP"
+        }
+    }, 
+    {
+        "pk": 96, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Vodafone Group Plc", 
+            "stock_tickr": "VOD"
+        }
+    }, 
+    {
+        "pk": 97, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Western Digital Corporation", 
+            "stock_tickr": "WDC"
+        }
+    }, 
+    {
+        "pk": 98, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Whole Foods Market Inc.", 
+            "stock_tickr": "WFM"
+        }
+    }, 
+    {
+        "pk": 99, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Wynn Resorts Limited", 
+            "stock_tickr": "WYNN"
+        }
+    }, 
+    {
+        "pk": 100, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Xilinx Inc.", 
+            "stock_tickr": "XLNX"
+        }
+    }, 
+    {
+        "pk": 101, 
+        "model": "portfolio.stock", 
+        "fields": {
+            "stock_name": "Yahoo! Inc.", 
+            "stock_tickr": "YHOO"
+        }
+    }
+]

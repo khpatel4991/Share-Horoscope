@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    
+    <h3>Search</h3>
+    {% csrf_token %}
+    <input type="text" id="search" name="search" />
+    
+    <ul id="search-results"></ul>
+
+{% if user.is_authenticated %}
+{% for d in dic %}
+     
+    <li><a>{{d.stock_name}}</a></li>
+        
+{% endfor %}
+{% endif %}
+
+{% endblock %}

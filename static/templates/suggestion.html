@@ -1,0 +1,7 @@
+{% if user.is_authenticated %}
+{% for s in suggs %}
+     
+    <li><a id=list href='/add_to_portfolio/{{s.id}}/{{user.id}}'>{{s.stock_name}}</a></li>
+        
+{% endfor %}
+{% endif %}
