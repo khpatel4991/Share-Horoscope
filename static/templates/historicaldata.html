@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>{{dicy.1}}</h1>
+
+<table class="table table-striped">
+  <tr>
+  <th>Date</th>
+  <th>Open</th>		
+  <th>Close</th>
+  <th>High</th>
+  <th>Low</th>
+  <th>Volume</th>
+  </tr>
+  {% for d in dicy.0 %}
+  <tr>
+  <td>{{d.2}}</td>
+  <td>{{d.3}}</td>
+  <td>{{d.4}}</td>
+  <td>{{d.5}}</td>
+  <td>{{d.6}}</td>
+  <td>{{d.7}}</td>
+  </tr>
+  {% endfor %}
+</table>
+
+{% endblock %}

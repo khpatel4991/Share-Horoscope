@@ -1,0 +1,10 @@
+{% if user.is_authenticated %}
+{% for d in dic %}
+
+<div class="dropdown">
+    <li role="presentation"><a role="menuitem" tabindex="-1">{{d}}</a></li>
+</div>
+<!--<li class="list-group-item"><a id=list href='/add_to_portfolio/{{s.id}}/{{user.id}}'>{{s.stock_name}}</a></li>-->
+        
+{% endfor %}
+{% endif %}
