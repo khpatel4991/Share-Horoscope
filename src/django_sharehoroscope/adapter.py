@@ -5,12 +5,12 @@ from datetime import datetime, timedelta
 
 class AccountAdapter(DefaultAccountAdapter):
 
-    def get_login_redirect_url(self, request):
-        threshold = 25 #seconds
+	def get_login_redirect_url(self, request):
+		threshold = 25 #seconds
     
-        assert request.user.is_authenticated()
-        if (request.user.last_login - request.user.date_joined).seconds < threshold:
-            url = '/thank-you/'
-        else:
-            url = "/user-page/"
-        return resolve_url(url)
+		assert request.user.is_authenticated()
+		if (request.user.last_login - request.user.date_joined).seconds < threshold:
+			url = '/thank-you/'
+		else:
+			url = '/user-page/'
+		return resolve_url(url)

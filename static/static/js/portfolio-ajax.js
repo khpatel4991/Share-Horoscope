@@ -21,6 +21,15 @@ function searchSuccess(data, textStatus, jqXHR)
 {
 	$('#search-results').html(data);
 }
+
+$("#option").change(function (){
+              if(this.value == 3){
+                   $("#strategy").removeAttr("disabled");
+              }else{
+           $("#strategy").attr("disabled", "true");
+           }
+           });
+
 /*
 $(function(){
 

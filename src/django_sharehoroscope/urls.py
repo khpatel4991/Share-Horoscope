@@ -15,6 +15,8 @@ urlpatterns = patterns('',
     url(r'^portfolio/', 'portfolio.views.portfolio', name='portfolio'),
     url(r'^suggestion/$', 'portfolio.views.suggestion', name='suggestion'),
     url(r'^add_to_portfolio/(?P<stock_id>\d+)/(?P<user_id>\d+)/$', 'portfolio.views.addtoportfolio'),
+    url(r'^remove_from_portfolio/(?P<stock_id>\d+)/(?P<user_id>\d+)/$', 'portfolio.views.removefromportfolio'),
+    url(r'^predict/(?P<stock_id>\d+)/(?P<predict>\d+)/$', 'portfolio.views.predict'),
     #url(r'^get/(?P<article_id>\d+)/$', 'article.views.article'),
     #url(r'^accounts/profile/', ProfileView.as_view(), name='profile')
 )

@@ -1,0 +1,102 @@
+pk,stock_tickr, stock_name
+1,ATVI, Activision Blizzard Inc
+2,ADBE, Adobe Systems Incorporated
+3,AKAM, Akamai Technologies Inc.
+4,ALXN, Alexion Pharmaceuticals Inc.
+5,ALTR, Altera Corporation
+6,AMZN, Amazon.com Inc.
+7,AMGN, Amgen Inc.
+8,ADI, Analog Devices Inc.
+9,AAPL, Apple Inc.
+10,AMAT, Applied Materials Inc.
+11,ADSK, Autodesk Inc.
+12,ADP, Automatic Data Processing Inc.
+13,AVGO, Avago Technologies Limited
+14,BIDU, Baidu Inc.
+15,BBBY, Bed Bath &amp; Beyond Inc.
+16,BIIB, Biogen Idec Inc.
+17,BRCM, Broadcom Corporation
+18,CHRW, C.H. Robinson Worldwide Inc.
+19,CA, CA Inc.
+20,CTRX, Catamaran Corporation
+21,CELG, Celgene Corporation
+22,CERN, Cerner Corporation
+23,CHTR, Charter Communications Inc.
+24,CHKP, Check Point Software Technologies Ltd.
+25,CSCO, Cisco Systems Inc.
+26,CTXS, Citrix Systems Inc.
+27,CTSH, Cognizant Technology Solutions Corporation
+28,CMCSA, Comcast Corporation
+29,COST, Costco Wholesale Corporation
+30,DTV, DIRECTV
+31,DISCA, Discovery Communications Inc.
+32,DISH, DISH Network Corporation
+33,DLTR, Dollar Tree Inc.
+34,EBAY, eBay Inc.
+35,EQIX, Equinix Inc.
+36,EXPE, Expedia Inc.
+37,EXPD, Expeditors International of Washington Inc.
+38,ESRX, Express Scripts Holding Company
+39,FFIV, F5 Networks Inc.
+40,FB, Facebook Inc.
+41,FAST, Fastenal Company
+42,FISV, Fiserv Inc.
+43,GRMN, Garmin Ltd.
+44,GILD, Gilead Sciences Inc.
+45,GOOG, Google Inc.
+46,GOOGL, Google Inc.
+47,HSIC, Henry Schein Inc.
+48,ILMN, Illumina Inc.
+49,INTC, Intel Corporation
+50,INTU, Intuit Inc.
+51,ISRG, Intuitive Surgical Inc.
+52,GMCR, Keurig Green Mountain Inc.
+53,KLAC, KLA-Tencor Corporation
+54,KRFT, Kraft Foods Group Inc.
+55,LBTYA, Liberty Global plc
+56,LINTA, Liberty Interactive Corporation
+57,LMCA, Liberty Media Corporation
+58,LLTC, Linear Technology Corporation
+59,MAR, Marriott International
+60,MAT, Mattel Inc.
+61,MXIM, Maxim Integrated Products Inc.
+62,MU, Micron Technology Inc.
+63,MSFT, Microsoft Corporation
+64,MDLZ, Mondelez International Inc.
+65,MNST, Monster Beverage Corporation
+66,MYL, Mylan Inc.
+67,NTAP, NetApp Inc.
+68,NFLX, Netflix Inc.
+69,NVDA, NVIDIA Corporation
+70,NXPI, NXP Semiconductors N.V.
+71,ORLY, O'Reilly Automotive Inc.
+72,PCAR, PACCAR Inc.
+73,PAYX, Paychex Inc.
+74,QCOM, QUALCOMM Incorporated
+75,REGN, Regeneron Pharmaceuticals Inc.
+76,ROST, Ross Stores Inc.
+77,SNDK, SanDisk Corporation
+78,SBAC, SBA Communications Corporation
+79,STX, Seagate Technology.
+80,SIAL, Sigma-Aldrich Corporation
+81,SIRI, Sirius XM Holdings Inc.
+82,SPLS, Staples Inc.
+83,SBUX, Starbucks Corporation
+84,SRCL, Stericycle Inc.
+85,SYMC, Symantec Corporation
+86,TSLA, Tesla Motors Inc.
+87,TXN, Texas Instruments Incorporated
+88,PCLN, The Priceline Group Inc.
+89,TSCO, Tractor Supply Company
+90,TRIP, TripAdvisor Inc.
+91,FOXA, Twenty-First Century Fox Inc.
+92,VRSK, Verisk Analytics Inc.
+93,VRTX, Vertex Pharmaceuticals Incorporated
+94,VIAB, Viacom Inc.
+95,VIP, VimpelCom Ltd.
+96,VOD, Vodafone Group Plc
+97,WDC, Western Digital Corporation
+98,WFM, Whole Foods Market Inc.
+99,WYNN, Wynn Resorts Limited
+100,XLNX, Xilinx Inc.
+101,YHOO, Yahoo! Inc.

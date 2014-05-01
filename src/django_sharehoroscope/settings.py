@@ -38,6 +38,7 @@ TEMPLATE_CONTEXT_PROCESSORS = (
     'allauth.account.context_processors.account',
     'allauth.socialaccount.context_processors.socialaccount',
     'django.contrib.auth.context_processors.auth',
+    'django.contrib.messages.context_processors.messages',
 )
 
 SOCIALACCOUNT_PROVIDERS = \
@@ -48,10 +49,17 @@ SOCIALACCOUNT_PROVIDERS = \
           'AUTH_PARAMS': { 'access_type': 'online' } }}
 
 # auth and allauth settings
+
 LOGIN_REDIRECT_URL = '/'
+
 ACCOUNT_EMAIL_REQUIRED = True
+
 SOCIALACCOUNT_QUERY_EMAIL = True
+
 SESSION_SAVE_EVERY_REQUEST=True
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 SOCIALACCOUNT_PROVIDERS = {
     'facebook': {
         'SCOPE': ['email', 'publish_stream'],
@@ -85,7 +93,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'allauth.socialaccount.providers.google',
-    'allauth.socialaccount.providers.facebook',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',

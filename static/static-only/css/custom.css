@@ -3,7 +3,15 @@
     text-align: center;
 }
 
-.h1 {
-   font-weight: bold;
-   font-size: 50px;
+#sign {
+    text-align:center;
 }
+
+#sign.h1 {
+    margin:auto;
+    line-height:50px;
+    vertical-align:middle;
+}
+
+.top-buffer { margin-top:20px; }
+.top-buffer1 { margin-top:40px; }
