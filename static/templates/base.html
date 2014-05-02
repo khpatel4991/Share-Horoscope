@@ -1,4 +1,3 @@
-''
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,6 +18,7 @@
       
     <!-- Custom CSS -->
     <link href="/static/css/custom.css" rel="stylesheet">
+
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="/static/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -55,8 +55,8 @@
         </div><!--/.navbar-collapse -->
         {%if user.is_authenticated%}
           <ul class="nav nav-pills">
-            <li><a href="/portfolio/">Portfolio</a></li>
-            <li><a href="/user-page/">Prediction</a></li>
+            <li><a href="/graph/">Graphs</a></li>
+            <li><a href="/user-page/">Portfolio</a></li>
           </ul>
         {% endif %}
       </div>
@@ -67,10 +67,10 @@
 
     <div class="container">
       {% if messages %}
-      <div class="row">
-        <div class='col-sm-6 col-sm-offset-3'>
+      <div class="row" id = "successMessage">
+        <div id="msg" class='col-sm-6 col-sm-offset-3'>
             {% for message in messages %}
-            <p{% if message.tags == "success" %} class="alert alert-success" {% endif %}>{{ message }}</p>
+            <p{% if message.tags == "success" %} class="alert alert-success" show="slow"{% endif %}>{{ message }}</p>
             {% endfor %}
         </div>
       </div>
@@ -94,5 +94,7 @@
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/portfolio-ajax.js"></script>
+    
+
   </body>
 </html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Chart.js demo</title>
+        <!-- import plugin script -->
+        <script src='Chart.min.js'></script>
+    </head>
+    <body>
+        <!-- line chart canvas element -->
+        <canvas id="buyers" width="600" height="400"></canvas>
+        <script>
+            // line chart data
+            var buyerData = {
+                labels : ["January","February","March","April","May","June"],
+                datasets : [
+                {
+                    fillColor : "rgba(172,194,132,0.4)",
+                    strokeColor : "#ACC26D",
+                    pointColor : "#fff",
+                    pointStrokeColor : "#9DB86D",
+                    data : [203,156,99,251,305,247]
+                }
+            ]
+            }
+            // get line chart canvas
+            var buyers = document.getElementById('buyers').getContext('2d');
+            // draw line chart
+            new Chart(buyers).Line(buyerData);
+        </script>
+    
+        <script type="text/javascript">
+
+            var series = [{
+        argumentField: "arg",
+        valueField: "y1"
+    }, {
+        argumentField: "arg",
+        valueField: "y2"
+    }, {
+        argumentField: "arg",
+        valueField: "y3"
+    }];
+
+var model = {};
+model.chartOptions = {
+    argumentAxis: {
+       minValueMargin: 0,
+       maxValueMargin: 0
+    },
+    dataSource: zoomingData,
+    series: series,
+    legend:{
+        visible: false
+    }
+};
+
+model.rangeOptions = {
+    size: {
+        height: 120
+    },
+    margin: {
+        left: 10
+    },
+    dataSource: zoomingData,
+    chart: {
+        series: series
+    },
+    behavior: {
+        callSelectedRangeChanged: "onMoving"
+    },
+    selectedRangeChanged: function (e) {
+        var zoomedChart = $("#chartContainer #zoomedChart").dxChart("instance");
+        zoomedChart.zoomArgument(e.startValue, e.endValue);
+    }
+};
+
+var html = [
+    '<div id="zoomedChart" data-bind="dxChart: chartOptions" style="height: 335px;margin: 0 0 15px"></div>',
+    '<div data-bind="dxRangeSelector: rangeOptions" style="height: 80px"></div>'
+].join('');
+
+$("#chartContainer").append(html);
+ko.applyBindings(model, $("#chartContainer")[0]);
+
+
+        
+        </script>
+
+
+    </body>
+</html>

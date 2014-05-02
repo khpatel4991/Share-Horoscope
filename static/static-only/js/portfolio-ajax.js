@@ -28,29 +28,12 @@ $("#option").change(function (){
               }else{
            $("#strategy").attr("disabled", "true");
            }
-           });
-
-/*
-$(function(){
-
-    $('#list').click(function() {
-    
-        $.ajax({
-            type: "POST",
-            url: "/add-to-portfolio/",
-            data: { 
-                'user_id' : $('#list').val(),
-                'csrfmiddlewaretoken' : $("input[name=csrfmiddlewaretoken]").val()
-            },
-            success: searchSuccess,
-            dataType: 'html'
         });
-        
-    });
 
+$(function() {
+    // setTimeout() function will be fired after page is loaded
+    // it will wait for 5 sec. and then will fire
+    // $("#successMessage").hide() function
+    
+    setTimeout(function(){ $('#successMessage').hide(); }, 5000);
 });
-
-function searchSuccess(data, textStatus, jqXHR)
-{
-	$('#search-results').html(data);
-}*/

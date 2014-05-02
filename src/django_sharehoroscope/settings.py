@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+PROJECT_ROOT = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), ".."),
+)
 
 
 # Quick-start development settings - unsuitable for production
@@ -98,6 +101,9 @@ INSTALLED_APPS = (
     'allauth.socialaccount',
     'portfolio',
     'jquery',
+    'chartit',
+    'django_nvd3',
+    'djangobower',
 )
 
 SITE_ID = 1
@@ -152,8 +158,23 @@ TEMPLATE_DIRS = (
 
 )
 
+BOWER_COMPONENTS_ROOT = os.path.join(PROJECT_ROOT, 'components')
+
+STATICFILES_FINDERS = (
+    'django.contrib.staticfiles.finders.FileSystemFinder',
+    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'djangobower.finders.BowerFinder',
+)
+
+BOWER_INSTALLED_APPS = (
+    'jquery',
+    'underscore',
+)
+
 if DEBUG:
     STATIC_ROOT = os.path.join(os.path.dirname(BASE_DIR), "static", "static-only")
     STATICFILES_DIRS = (
         os.path.join(os.path.dirname(BASE_DIR), "static", "static"),
     )
+
+BOWER_PATH = '/usr/local/lib/python2.7/dist-packages'
